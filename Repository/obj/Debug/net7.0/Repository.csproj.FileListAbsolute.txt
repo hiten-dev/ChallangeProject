@@ -1,0 +1,15 @@
+D:\Development\Web\ChallengeApplication\Repository\bin\Debug\net7.0\Repository.deps.json
+D:\Development\Web\ChallengeApplication\Repository\bin\Debug\net7.0\Repository.dll
+D:\Development\Web\ChallengeApplication\Repository\bin\Debug\net7.0\Repository.pdb
+D:\Development\Web\ChallengeApplication\Repository\bin\Debug\net7.0\Domain.dll
+D:\Development\Web\ChallengeApplication\Repository\bin\Debug\net7.0\Domain.pdb
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.csproj.Up2Date
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.dll
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\refint\Repository.dll
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.pdb
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\ref\Repository.dll
