@@ -14,34 +14,33 @@ namespace Repository
             _dataContext = dataContext;
             entities = _dataContext.Set<T>();
         }
-        T IRepository<T>.Get(Guid id)
+        async Task<T> IRepository<T>.Get(Guid id)
         {
             try
             {
-                var res = entities.AsNoTracking().AsEnumerable().FirstOrDefault(i => i.CustomerId == id);
-                return res;
-            }
-            catch(Exception)
-            {
-                throw;
-            }
-        }
-        IEnumerable<T> IRepository<T>.GetAll()
-        {
-            try
-            {
-                return entities.AsEnumerable();
+                return await entities.AsNoTracking().FirstOrDefaultAsync(i => i.CustomerId == id);
             }
             catch (Exception)
             {
                 throw;
             }
         }
-        Guid IRepository<T>.Insert(T entity)
+        async Task<IEnumerable<T>> IRepository<T>.GetAll()
         {
             try
             {
-                entities.Add(entity);
+                return await entities.ToListAsync();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        async Task<Guid> IRepository<T>.Insert(T entity)
+        {
+            try
+            {
+                await entities.AddAsync(entity);
                 return entity.CustomerId;
             }
             catch (Exception)
@@ -49,13 +48,14 @@ namespace Repository
                 throw;
             }
         }
-        void IRepository<T>.SaveChanges()
+        async Task IRepository<T>.SaveChanges()
         {
-            _dataContext.SaveChanges();
+            await _dataContext.SaveChangesAsync();
         }
-        void IRepository<T>.Update(T entity)
+        async Task IRepository<T>.Update(T entity)
         {
-            _dataContext.Update(entity);
+            entities.Update(entity);
+            await Task.CompletedTask;
         }
     }
 }

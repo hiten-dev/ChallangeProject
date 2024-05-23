@@ -13,8 +13,7 @@ namespace Service
         {
             _repository = repository;
         }
-
-        Guid ICustomerService<CustomerDetail>.Insert(CustomerDetail entity)
+        async Task<Guid> ICustomerService<CustomerDetail>.Insert(CustomerDetail entity)
         {
             try
             {
@@ -26,17 +25,17 @@ namespace Service
                     DateOfBirth = entity.DateOfBirth,
                     ImagePath = string.Empty
                 };
-                _repository.Insert(customer);
-                _repository.SaveChanges();
+                await _repository.Insert(customer);
+                await _repository.SaveChanges();
 
                 //Getting svg image after customer created successfully
                 string imgPath = GetImage(customer.CustomerId, entity.Name).Result;
                 customer.ImagePath = imgPath;
-                _repository.Update(customer);
-                _repository.SaveChanges();
+                await _repository.Update(customer);
+                await _repository.SaveChanges();
                 return customer.CustomerId;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw;
             }
@@ -52,15 +51,15 @@ namespace Service
                 RestResponse response = await client.ExecuteAsync(request);
                 var imageName = string.Format(@"Images\{0}.svg", guid.ToString().Replace('-', '_'));
                 var path = Path.Combine(Directory.GetCurrentDirectory(), imageName);
-                    if (response.RawBytes != null)
-                    {
-                        File.WriteAllBytes(path, response.RawBytes);
-                        return imageName;
-                    }
-                    else
-                    {
-                        return string.Empty;
-                    }
+                if (response.RawBytes != null)
+                {
+                    File.WriteAllBytes(path, response.RawBytes);
+                    return imageName;
+                }
+                else
+                {
+                    return string.Empty;
+                }
             }
             catch (Exception)
             {
@@ -68,16 +67,16 @@ namespace Service
             }
         }
 
-        void ICustomerService<CustomerDetail>.Update(Guid id, CustomerDetail entity)
+        async Task ICustomerService<CustomerDetail>.Update(Guid id, CustomerDetail entity)
         {
             try
             {
                 // I have used custom mapping but we can also use DTO here
-                var existingdetail = _repository.Get(id);
+                var existingdetail = await _repository.Get(id);
                 existingdetail.Name = string.IsNullOrEmpty(entity.Name) ? existingdetail.Name : entity.Name;
                 existingdetail.DateOfBirth = entity.DateOfBirth == DateOnly.MinValue ? existingdetail.DateOfBirth : entity.DateOfBirth;
-                _repository.Update(existingdetail);
-                _repository.SaveChanges();
+                await _repository.Update(existingdetail);
+                await _repository.SaveChanges();
             }
             catch
             {

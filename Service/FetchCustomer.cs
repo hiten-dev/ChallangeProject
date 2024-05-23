@@ -13,17 +13,17 @@ namespace Service
             _repository = repository;
         }
 
-        public Customer Get(Guid Id) => _repository.Get(Id);
+        public Task<Customer> Get(Guid Id) => _repository.Get(Id);
 
-        public IEnumerable<Customer> GetAll() => _repository.GetAll();
+        public Task<IEnumerable<Customer>> GetAll() => _repository.GetAll();
 
-        public IEnumerable<Customer> GetByAge(int age)
+        public async Task<IEnumerable<Customer>> GetByAge(int age)
         {
             try
             {
-                var mindate = DateOnly.FromDateTime(DateTime.Now.AddYears(-(age+1)));
+                var mindate = DateOnly.FromDateTime(DateTime.Now.AddYears(-(age + 1)));
                 var maxdate = DateOnly.FromDateTime(DateTime.Now.AddYears(-(age)));
-                return _repository.GetAll().Where(x => x.DateOfBirth <= maxdate && x.DateOfBirth >= mindate);
+                return (await _repository.GetAll()).Where(x => x.DateOfBirth <= maxdate && x.DateOfBirth >= mindate);
             }
             catch (Exception)
             {

@@ -13,3 +13,4 @@ D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.d
 D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\refint\Repository.dll
 D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.pdb
 D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\ref\Repository.dll
+D:\Development\Web\ChallengeApplication\Repository\obj\Debug\net7.0\Repository.sourcelink.json

@@ -3,7 +3,7 @@ namespace Service.Interface
 {
     public interface ICustomerService<T> where T : class
     {
-        Guid Insert(T entity);
-        void Update(Guid id, T entity);
+        Task<Guid> Insert(T entity);
+        Task Update(Guid id, T entity);
     }
 }

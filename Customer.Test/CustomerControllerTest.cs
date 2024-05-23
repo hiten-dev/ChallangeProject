@@ -19,25 +19,24 @@ namespace Customer.Test
             _mockFetchCustomer = new Mock<IFetchCustomer<Domain.Models.Customer>>();
             _mockLogger = new Mock<ILogger<CustomerController>>();
 
-            _controller = new CustomerController((ICustomerService<CustomerDetail>)_mockCustomerService,
-                (IFetchCustomer<Domain.Models.Customer>)_mockFetchCustomer, (ILogger<CustomerController>)_mockLogger);
+            _controller = new CustomerController(_mockCustomerService.Object,
+                _mockFetchCustomer.Object, _mockLogger.Object);
         }
 
         [Fact]
         public async Task Get_AllOkResult()
         {
 
-            _mockFetchCustomer.Setup(service => service.GetAll()).Returns(new List<Domain.Models.Customer>());
-            var result = _controller.GetAll();
-
+            _mockFetchCustomer.Setup(service => service.GetAll()).ReturnsAsync(new List<Domain.Models.Customer>());
+            var result = await _controller.GetAll();
             Assert.IsType<OkObjectResult>(result);
         }
         [Fact]
         public async Task Get_ByAgeOkResult()
         {
 
-            _mockFetchCustomer.Setup(service => service.GetByAge(30)).Returns(new List<Domain.Models.Customer>());
-            var result = _controller.GetByAge(30);
+            _mockFetchCustomer.Setup(service => service.GetByAge(30)).ReturnsAsync(new List<Domain.Models.Customer>());
+            var result = await _controller.GetByAge(30);
 
             Assert.IsType<OkObjectResult>(result);
         }

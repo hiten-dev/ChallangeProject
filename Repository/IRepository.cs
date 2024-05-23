@@ -4,10 +4,10 @@ namespace Repository
 {
     public interface IRepository<T> where T : BaseEntity
     {
-        IEnumerable<T> GetAll();
-        T Get(Guid id);
-        Guid Insert(T entity);
-        void Update(T entity);
-        void SaveChanges();
+        Task<IEnumerable<T>> GetAll();
+        Task<T> Get(Guid id);
+        Task<Guid> Insert(T entity);
+        Task Update(T entity);
+        Task SaveChanges();
     }
 }
