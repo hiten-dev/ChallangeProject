@@ -1,0 +1,405 @@
+2024-05-23 11:36:27.0567|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-23 11:36:27.6882|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-05-23 11:36:28.6760|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly ChallengeApplication 
+2024-05-23 11:36:28.6760|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-23 11:36:28.6760|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-23 11:36:28.6760|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-05-23 11:36:28.6760|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-05-23 11:36:28.6760|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Development\Web\ChallengeApplication\ChallengeApplication 
+2024-05-23 11:36:28.6760|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-05-23 11:36:29.1520|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/index.html - - 
+2024-05-23 11:36:30.0931|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-23 11:36:30.0931|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:30.1513|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/index.html' 
+2024-05-23 11:36:30.1513|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:36:30.4423|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup is scheduled to include Browser Link script injection. 
+2024-05-23 11:36:30.4480|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2024-05-23 11:36:30.6083|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup was updated to include Browser Link script injection. 
+2024-05-23 11:36:30.6083|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2024-05-23 11:36:30.6083|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "17942340933429231672" disconnecting. 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/swagger-ui-bundle.js - - 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/swagger-ui.css - - 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/swagger-ui-standalone-preset.js - - 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/swagger-ui.css' 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/index.html - - - 200 - text/html;charset=utf-8 1479.6914ms 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2024-05-23 11:36:30.6249|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:36:30.6695|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_vs/browserLink - - 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18158513711248048170" disconnecting. 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 47.7920ms 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui.css was not modified 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui-bundle.js was not modified 
+2024-05-23 11:36:30.6728|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui-standalone-preset.js was not modified 
+2024-05-23 11:36:30.7007|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui.css 
+2024-05-23 11:36:30.7007|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui-bundle.js 
+2024-05-23 11:36:30.7007|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui-standalone-preset.js 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18086456117210120197" disconnecting. 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18374686493361832012" disconnecting. 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18158513719837982902" disconnecting. 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/swagger-ui-standalone-preset.js - - - 304 - text/javascript 77.6779ms 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/swagger-ui-bundle.js - - - 304 - text/javascript 77.9558ms 
+2024-05-23 11:36:30.7024|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/swagger-ui.css - - - 304 - text/css 77.9603ms 
+2024-05-23 11:36:30.8441|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18230571318170878124" disconnecting. 
+2024-05-23 11:36:30.8441|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 179.5178ms 
+2024-05-23 11:36:31.3561|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - 
+2024-05-23 11:36:31.3561|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:31.3561|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-23 11:36:31.3561|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:36:31.5383|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.3320ms 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/api/Customer - - 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customer' 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' with route pattern 'api/Customer' is valid for the request path '/api/Customer' 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Static files was skipped as the request already matched an endpoint. 
+2024-05-23 11:36:51.6903|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 11:36:51.7311|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication). 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-23 11:36:51.7358|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 11:36:53.6790|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-23 11:36:56.0999|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|Entity Framework Core 7.0.19 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.19' with options: None 
+2024-05-23 11:36:56.0999|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 11:36:56.0999|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:36:56.0999|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:36:56.0999|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:36:56.0999|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:36:56.1169|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication) - Validation state: Valid 
+2024-05-23 11:36:56.1169|ChallengeApplication.Controllers.CustomerController|INFO|Fetching all recirds 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.7364ms. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:36:56.1332|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|No information found on request to perform content negotiation. 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-05-23 11:36:56.1431|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[Domain.Models.Customer, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-05-23 11:36:56.2893|Microsoft.EntityFrameworkCore.Query|DEBUG|Compiling query expression: 
+'DbSet<Customer>()' 
+2024-05-23 11:36:56.7280|Microsoft.EntityFrameworkCore.Query|DEBUG|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Customer>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Customer.CustomerId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Customer.DateOfBirth (DateOnly) Required, 1], [Property: Customer.ImagePath (string) Required, 2], [Property: Customer.Name (string) Required, 3] }
+        SELECT t.CustomerId, t.DateOfBirth, t.ImagePath, t.Name
+        FROM TblCustomer AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Customer>, 
+    ChallengeApplication.Data.DataContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-05-23 11:36:56.8329|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-05-23 11:36:56.8329|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Creating DbConnection. 
+2024-05-23 11:36:56.9714|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Created DbConnection. (112ms). 
+2024-05-23 11:36:56.9714|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (176ms). 
+2024-05-23 11:36:56.9903|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (185ms). 
+2024-05-23 11:36:56.9903|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 11:36:57.0403|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:36:57.0633|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 11:36:57.1480|Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (86ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 11:36:57.2620|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:36:57.3354|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:36:57.3354|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:36:57.3354|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:36:57.3509|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:36:57.3619|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db' is being disposed after spending 204ms reading results. 
+2024-05-23 11:36:57.3619|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:36:57.3803|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'main' on server 'SQLLiteDatabase.db' (9ms). 
+2024-05-23 11:36:57.3803|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-23 11:36:57.3803|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:36:57.3803|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:36:57.3899|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication) in 5644.6721ms 
+2024-05-23 11:36:57.3899|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 11:36:57.3899|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "17942340937724199021" disconnecting. 
+2024-05-23 11:36:57.3899|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|'DataContext' disposed. 
+2024-05-23 11:36:57.4071|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposing connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 11:36:57.4071|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposed connection to database 'main' on server 'SQLLiteDatabase.db' (2ms). 
+2024-05-23 11:36:57.4071|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/api/Customer - - - 200 - application/json;+charset=utf-8 5720.0483ms 
+2024-05-23 11:57:44.1489|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-23 11:57:44.2946|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-05-23 11:57:44.6202|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly ChallengeApplication 
+2024-05-23 11:57:44.6202|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-23 11:57:44.6202|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-23 11:57:44.6202|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-05-23 11:57:44.6202|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-05-23 11:57:44.6202|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Development\Web\ChallengeApplication\ChallengeApplication 
+2024-05-23 11:57:44.6202|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-05-23 11:57:44.6667|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/index.html - - 
+2024-05-23 11:57:44.8075|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-23 11:57:44.8075|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:57:44.8443|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/index.html' 
+2024-05-23 11:57:44.8443|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:57:45.0007|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup is scheduled to include Browser Link script injection. 
+2024-05-23 11:57:45.0007|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2024-05-23 11:57:45.0446|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup was updated to include Browser Link script injection. 
+2024-05-23 11:57:45.0446|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2024-05-23 11:57:45.0446|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18158513724132950132" disconnecting. 
+2024-05-23 11:57:45.0446|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/index.html - - - 200 - text/html;charset=utf-8 382.2645ms 
+2024-05-23 11:57:45.0446|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-23 11:57:45.0633|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18158513715543015464" disconnecting. 
+2024-05-23 11:57:45.0633|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.1010ms 
+2024-05-23 11:57:45.0769|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_vs/browserLink - - 
+2024-05-23 11:57:45.1725|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18158513715543015466" disconnecting. 
+2024-05-23 11:57:45.2396|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 162.4985ms 
+2024-05-23 11:57:45.2673|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - 
+2024-05-23 11:57:45.2673|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:57:45.2673|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-23 11:57:45.2673|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 11:57:45.4449|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.5002ms 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 PATCH https://localhost:44368/api/Customer/0e0442c0-d355-4020-a806-81846bcae263 application/json 38 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customer/0e0442c0-d355-4020-a806-81846bcae263' 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication)' with route pattern 'api/Customer/{id:Guid}' is valid for the request path '/api/Customer/0e0442c0-d355-4020-a806-81846bcae263' 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication)' 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Static files was skipped as the request already matched an endpoint. 
+2024-05-23 11:57:49.5475|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication)' 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Update", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(System.Guid, Domain.ViewModels.CustomerDetail) on controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication). 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-23 11:57:49.5795|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 11:57:49.7608|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-23 11:57:50.2250|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|Entity Framework Core 7.0.19 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.19' with options: None 
+2024-05-23 11:57:50.2250|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 11:57:50.2336|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Guid' ... 
+2024-05-23 11:57:50.2336|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ... 
+2024-05-23 11:57:50.2449|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Guid'. 
+2024-05-23 11:57:50.2449|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Guid'. 
+2024-05-23 11:57:50.2449|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'id' of type 'System.Guid' ... 
+2024-05-23 11:57:50.2534|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'id' of type 'System.Guid'. 
+2024-05-23 11:57:50.2534|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'customer' of type 'Domain.ViewModels.CustomerDetail' ... 
+2024-05-23 11:57:50.2534|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Attempting to bind parameter 'customer' of type 'Domain.ViewModels.CustomerDetail' using the name '' in request data ... 
+2024-05-23 11:57:50.2534|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-05-23 11:57:50.3281|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|DEBUG|JSON input formatter succeeded, deserializing to type 'Domain.ViewModels.CustomerDetail' 
+2024-05-23 11:57:50.3281|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Done attempting to bind parameter 'customer' of type 'Domain.ViewModels.CustomerDetail'. 
+2024-05-23 11:57:50.3281|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'customer' of type 'Domain.ViewModels.CustomerDetail'. 
+2024-05-23 11:57:50.3281|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'customer' of type 'Domain.ViewModels.CustomerDetail' ... 
+2024-05-23 11:57:50.3807|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'customer' of type 'Domain.ViewModels.CustomerDetail'. 
+2024-05-23 11:57:50.3807|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:57:50.3807|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:57:50.3807|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:57:50.3807|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:57:50.3992|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication) - Validation state: Valid 
+2024-05-23 11:57:50.3992|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication) with arguments (0e0442c0-d355-4020-a806-81846bcae263, Domain.ViewModels.CustomerDetail) 
+2024-05-23 11:57:50.5043|Microsoft.EntityFrameworkCore.Query|DEBUG|Compiling query expression: 
+'DbSet<Customer>()
+    .AsNoTracking()' 
+2024-05-23 11:57:50.6686|Microsoft.EntityFrameworkCore.Query|DEBUG|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Customer>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Customer.CustomerId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Customer.DateOfBirth (DateOnly) Required, 1], [Property: Customer.ImagePath (string) Required, 2], [Property: Customer.Name (string) Required, 3] }
+        SELECT t.CustomerId, t.DateOfBirth, t.ImagePath, t.Name
+        FROM TblCustomer AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Customer>, 
+    ChallengeApplication.Data.DataContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-05-23 11:57:50.6918|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-05-23 11:57:50.6918|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Creating DbConnection. 
+2024-05-23 11:57:50.7191|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Created DbConnection. (23ms). 
+2024-05-23 11:57:50.7191|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (33ms). 
+2024-05-23 11:57:50.7298|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (39ms). 
+2024-05-23 11:57:50.7298|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.7580|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.7690|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 11:57:50.8147|Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 11:57:50.8147|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.8147|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db' is being disposed after spending 8ms reading results. 
+2024-05-23 11:57:50.8147|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.8147|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'main' on server 'SQLLiteDatabase.db' (1ms). 
+2024-05-23 11:57:50.8910|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:57:50.8910|Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges starting for 'DataContext'. 
+2024-05-23 11:57:50.8910|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges starting for 'DataContext'. 
+2024-05-23 11:57:50.9005|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges completed for 'DataContext'. 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (2ms). 
+2024-05-23 11:57:50.9445|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[@p3='?' (DbType = Guid), @p0='?' (DbType = Date), @p1='?' (Size = 47), @p2='?' (Size = 15)], CommandType='Text', CommandTimeout='30']
+UPDATE "TblCustomer" SET "DateOfBirth" = @p0, "ImagePath" = @p1, "Name" = @p2
+WHERE "CustomerId" = @p3
+RETURNING 1; 
+2024-05-23 11:57:50.9560|Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (8ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?' (DbType = Date), @p1='?' (Size = 47), @p2='?' (Size = 15)], CommandType='Text', CommandTimeout='30']
+UPDATE "TblCustomer" SET "DateOfBirth" = @p0, "ImagePath" = @p1, "Name" = @p2
+WHERE "CustomerId" = @p3
+RETURNING 1; 
+2024-05-23 11:57:50.9560|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.9560|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db' is being disposed after spending 4ms reading results. 
+2024-05-23 11:57:50.9560|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.9560|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'main' on server 'SQLLiteDatabase.db' (0ms). 
+2024-05-23 11:57:50.9712|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'Customer' tracked by 'DataContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 11:57:50.9712|Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges completed for 'DataContext' with 1 entities written to the database. 
+2024-05-23 11:57:50.9712|ChallengeApplication.Controllers.CustomerController|INFO|Successfully updated the customer details 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication), returned result Microsoft.AspNetCore.Mvc.OkResult in 572.8989ms. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.OkResult. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.StatusCodeResult|INFO|Executing StatusCodeResult, setting HTTP status code 200 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.OkResult. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication) in 1395.2454ms 
+2024-05-23 11:57:50.9712|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'ChallengeApplication.Controllers.CustomerController.Update (ChallengeApplication)' 
+2024-05-23 11:57:50.9889|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "17798225749648343061" disconnecting. 
+2024-05-23 11:57:50.9889|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|'DataContext' disposed. 
+2024-05-23 11:57:50.9889|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposing connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 11:57:50.9984|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposed connection to database 'main' on server 'SQLLiteDatabase.db' (2ms). 
+2024-05-23 11:57:50.9984|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 PATCH https://localhost:44368/api/Customer/0e0442c0-d355-4020-a806-81846bcae263 application/json 38 - 200 - - 1451.9399ms 
+2024-05-23 13:30:08.8746|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-23 13:30:08.9841|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-05-23 13:30:09.4033|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly ChallengeApplication 
+2024-05-23 13:30:09.4033|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-23 13:30:09.4033|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-23 13:30:09.4084|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-05-23 13:30:09.4084|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-05-23 13:30:09.4084|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Development\Web\ChallengeApplication\ChallengeApplication 
+2024-05-23 13:30:09.4084|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-05-23 13:30:09.4605|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/index.html - - 
+2024-05-23 13:30:10.2077|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-23 13:30:10.2077|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 13:30:10.2673|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/index.html' 
+2024-05-23 13:30:10.2673|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 13:30:10.3857|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup is scheduled to include Browser Link script injection. 
+2024-05-23 13:30:10.3857|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2024-05-23 13:30:10.4616|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|DEBUG|Response markup was updated to include Browser Link script injection. 
+2024-05-23 13:30:10.4616|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2024-05-23 13:30:10.5171|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18014398536057094207" disconnecting. 
+2024-05-23 13:30:10.6012|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_vs/browserLink - - 
+2024-05-23 13:30:10.6012|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-23 13:30:10.6012|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/index.html - - - 200 - text/html;charset=utf-8 1144.2971ms 
+2024-05-23 13:30:10.6842|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18374686484771897413" disconnecting. 
+2024-05-23 13:30:10.6842|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.0844ms 
+2024-05-23 13:30:10.8092|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "18014398536057094209" disconnecting. 
+2024-05-23 13:30:10.8100|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 208.8205ms 
+2024-05-23 13:30:10.8749|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - 
+2024-05-23 13:30:10.8749|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 13:30:10.8749|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-23 13:30:10.8749|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request did not match any endpoints 
+2024-05-23 13:30:11.0087|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.7675ms 
+2024-05-23 13:30:36.5478|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/2 GET https://localhost:44368/api/Customer - - 
+2024-05-23 13:30:36.5478|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-05-23 13:30:36.5539|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customer' 
+2024-05-23 13:30:36.5539|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' with route pattern 'api/Customer' is valid for the request path '/api/Customer' 
+2024-05-23 13:30:36.5539|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 13:30:36.5539|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Static files was skipped as the request already matched an endpoint. 
+2024-05-23 13:30:36.5539|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 13:30:36.5806|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication). 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-23 13:30:36.5843|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 13:30:37.1624|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-23 13:30:38.0541|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|Entity Framework Core 7.0.19 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.19' with options: None 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller ChallengeApplication.Controllers.CustomerController (ChallengeApplication) 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication) - Validation state: Valid 
+2024-05-23 13:30:38.0541|ChallengeApplication.Controllers.CustomerController|INFO|Fetching all records 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2832ms. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|No information found on request to perform content negotiation. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-05-23 13:30:38.0541|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-05-23 13:30:38.0672|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-05-23 13:30:38.0672|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[Domain.Models.Customer, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-05-23 13:30:38.1075|Microsoft.EntityFrameworkCore.Query|DEBUG|Compiling query expression: 
+'DbSet<Customer>()' 
+2024-05-23 13:30:38.2376|Microsoft.EntityFrameworkCore.Query|DEBUG|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Customer>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Customer.CustomerId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Customer.DateOfBirth (DateOnly) Required, 1], [Property: Customer.ImagePath (string) Required, 2], [Property: Customer.Name (string) Required, 3] }
+        SELECT t.CustomerId, t.DateOfBirth, t.ImagePath, t.Name
+        FROM TblCustomer AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Customer>, 
+    ChallengeApplication.Data.DataContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-05-23 13:30:38.2604|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-05-23 13:30:38.2604|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Creating DbConnection. 
+2024-05-23 13:30:38.2816|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Created DbConnection. (17ms). 
+2024-05-23 13:30:38.2874|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (26ms). 
+2024-05-23 13:30:38.2874|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (29ms). 
+2024-05-23 13:30:38.2874|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 13:30:38.3083|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 13:30:38.3083|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 13:30:38.3532|Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "t"."CustomerId", "t"."DateOfBirth", "t"."ImagePath", "t"."Name"
+FROM "TblCustomer" AS "t" 
+2024-05-23 13:30:38.3821|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'DataContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db' is being disposed after spending 51ms reading results. 
+2024-05-23 13:30:38.4000|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'main' on server 'D:\Development\Web\ChallengeApplication\ChallengeApplication\SQLLiteDatabase.db'. 
+2024-05-23 13:30:38.4127|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'main' on server 'SQLLiteDatabase.db' (1ms). 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication) in 1827.4291ms 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'ChallengeApplication.Controllers.CustomerController.GetAll (ChallengeApplication)' 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|DEBUG|Connection ID "17798225736763441181" disconnecting. 
+2024-05-23 13:30:38.4127|Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|'DataContext' disposed. 
+2024-05-23 13:30:38.4127|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposing connection to database 'main' on server 'SQLLiteDatabase.db'. 
+2024-05-23 13:30:38.4127|Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposed connection to database 'main' on server 'SQLLiteDatabase.db' (0ms). 
+2024-05-23 13:30:38.4127|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/2 GET https://localhost:44368/api/Customer - - - 200 - application/json;+charset=utf-8 1877.5632ms 

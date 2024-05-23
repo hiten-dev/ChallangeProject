@@ -5,6 +5,7 @@ using Service;
 using Domain.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using ChallengeApplication.Data;
+using NLog.Web;
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
@@ -13,6 +14,11 @@ builder.Services.AddDbContext<DataContext>(options =>
         options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
+
+// NLog: Setup NLog
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
+
 
 #region Service Injected
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));

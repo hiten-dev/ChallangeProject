@@ -73,3 +73,8 @@ D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\Mi
 D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\System.CodeDom.dll
 D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\RestSharp.dll
+D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\nlog.config
+D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\NLog.dll
+D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\Development\Web\ChallengeApplication\ChallengeApplication\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+D:\Development\Web\ChallengeApplication\ChallengeApplication\obj\Debug\net7.0\ChallengeApplication.sourcelink.json

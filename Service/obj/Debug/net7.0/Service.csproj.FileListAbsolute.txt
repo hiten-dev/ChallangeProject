@@ -15,3 +15,4 @@ D:\Development\Web\ChallengeApplication\Service\obj\Debug\net7.0\Service.pdb
 D:\Development\Web\ChallengeApplication\Service\obj\Debug\net7.0\ref\Service.dll
 D:\Development\Web\ChallengeApplication\Service\bin\Debug\net7.0\Repository.dll
 D:\Development\Web\ChallengeApplication\Service\bin\Debug\net7.0\Repository.pdb
+D:\Development\Web\ChallengeApplication\Service\obj\Debug\net7.0\Service.sourcelink.json

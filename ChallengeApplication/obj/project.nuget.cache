@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZAJa6G7hxAkwmj0TgAVaEwDFeVSuHEgJALBYiTjqTDYqwz/vpdC81gzB+BfyKtzN4E+bRzMQeg0FcfPhJ/Uu8A==",
+  "dgSpecHash": "IKiCzCMiDjmlcSS0cp0fh769NFhg6MFLB9Kk7tPa4zu0B04FRpdt4R8MkK3hThDMgrYaE96+kEteSRapelb31g==",
   "success": true,
   "projectFilePath": "D:\\Development\\Web\\ChallengeApplication\\ChallengeApplication\\ChallengeApplication.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,9 @@
     "C:\\Users\\Hitender\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Hitender\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\Hitender\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hitender\\.nuget\\packages\\nlog\\5.3.2\\nlog.5.3.2.nupkg.sha512",
+    "C:\\Users\\Hitender\\.nuget\\packages\\nlog.extensions.logging\\5.3.11\\nlog.extensions.logging.5.3.11.nupkg.sha512",
+    "C:\\Users\\Hitender\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.11\\nlog.web.aspnetcore.5.3.11.nupkg.sha512",
     "C:\\Users\\Hitender\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\Hitender\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Hitender\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",

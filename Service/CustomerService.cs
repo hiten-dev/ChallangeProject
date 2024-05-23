@@ -18,6 +18,7 @@ namespace Service
         {
             try
             {
+                // I have used custom mapping but we can also use DTO here
                 Customer customer = new Customer()
                 {
                     CustomerId = new Guid(),
@@ -27,6 +28,8 @@ namespace Service
                 };
                 _repository.Insert(customer);
                 _repository.SaveChanges();
+
+                //Getting svg image after customer created successfully
                 string imgPath = GetImage(customer.CustomerId, entity.Name).Result;
                 customer.ImagePath = imgPath;
                 _repository.Update(customer);
@@ -69,15 +72,11 @@ namespace Service
         {
             try
             {
+                // I have used custom mapping but we can also use DTO here
                 var existingdetail = _repository.Get(id);
-                Customer customer = new Customer()
-                {
-                    CustomerId = id,
-                    Name = string.IsNullOrEmpty(entity.Name) ? existingdetail.Name : entity.Name,
-                    DateOfBirth = entity.DateOfBirth == DateOnly.MinValue ? existingdetail.DateOfBirth : entity.DateOfBirth,
-                    ImagePath = existingdetail.ImagePath
-                };
-                _repository.Update(customer);
+                existingdetail.Name = string.IsNullOrEmpty(entity.Name) ? existingdetail.Name : entity.Name;
+                existingdetail.DateOfBirth = entity.DateOfBirth == DateOnly.MinValue ? existingdetail.DateOfBirth : entity.DateOfBirth;
+                _repository.Update(existingdetail);
                 _repository.SaveChanges();
             }
             catch

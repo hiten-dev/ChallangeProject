@@ -74,6 +74,14 @@
               "target": "Package",
               "version": "[7.0.19, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[110.2.0, )"
